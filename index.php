@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="https://kit.fontawesome.com/8c9a32e334.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <title>Tema - DK</title>
     <link rel="stylesheet" href="style.css">
@@ -34,6 +35,38 @@
             <div class="clear"></div>
          </div> <!-- center -->
     </section><!-- topo -->
+
+    <section class="clientes-slider">
+        <div class="circle"><i class="fas fa-allergies"></i></i></i></div>
+        <div class="center">
+
+        </div><!-- center -->
+
+    </section>
+
+
+
+<!-- Inclusição dos scripts jquery e slick-->
+<script src="js/jquery.js"></script>
+<script src="js/slick.min.js"></script>
+
+<!-- SCRIPT SLICK SLIDER-->
+    <script type="text/javascript">
+    $('.container-slider').slick({
+    dots: true,
+    arrows:false,
+    infinite: true,
+    centerMode: true,
+    centerPadding:0,
+    speed:1000,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover:false
+    });
+</script>
+<!--END  SLICK SLIDER -->
+
 </body>
 </html>
 
