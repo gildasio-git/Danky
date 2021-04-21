@@ -35,32 +35,44 @@
             <div class="clear"></div>
          </div> <!-- center -->
     </section><!-- topo -->
+      <div class="circle"><i class="fas fa-angle-down"></i></div>
+        <section class="clientes-slider">   
+            
+            <div class="center">
+                <div style="max-width: 700px; margin:0 auto; overflow: hidden;" class="slider-container">
+                <img src="images/amazon.jpg"/>
+                <img src="images/costco.jpg"/>
+                <img src="images/dominos.jpg"/>
+                <img src="images/uber.jpg"/>
+                <img src="images/walmart.jpg"/>
+                </div>
+            </div><!-- center -->
 
-    <section class="clientes-slider">
-        <div class="circle"><i class="fas fa-angle-down"></i></div>
-        <div class="center">
-
-        </div><!-- center -->
-
-    </section>
+        </section>
 
 <!-- Inclusição dos scripts jquery e slick-->
-<script src="js/jquery.js"></script>
-<script src="js/slick.min.js"></script>
-
-<!-- SCRIPT SLICK SLIDER-->
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
     <script type="text/javascript">
-    $('.container-slider').slick({
-    dots: true,
-    arrows:false,
-    infinite: true,
-    centerMode: true,
-    centerPadding:0,
-    speed:1000,
-    slidesToShow: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover:false
+            $('section.clientes-slider .slider-container').slick({  
+            dots: true,
+            arrows:false,
+            infinite: false,
+            centerMode: false,
+            /**centerPadding:0,**/
+            speed:1000,
+            slidesToShow: 4,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover:false,
+            responsive:[
+                {
+                    breakpoint:768,
+                    settings:{
+                        slidesToShow: 2
+                    }
+                },
+            ]
     });
 </script>
 <!--END  SLICK SLIDER -->

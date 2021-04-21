@@ -85,12 +85,47 @@ section.topo{
 /*responsivo*/
 .time-imagem img{
     max-width: 100%;
-    float: left;
+}
+
+/*estilo da seta dos sliders*/
+.circle{
+    /*centraliza seta slider*/
+    position: absolute;
+    margin-top: -20px;
+    left: 50%;
+    translateX:(-50%); /*0 = reta Y*/
+    /**/
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;;
+    border-radius: 50%; /*Em formato de círculo*/
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px 0 rgba(37, 15, 139, 0.1);
+}
+
+/*Aumenta tamanho da seta (arrow)*/
+.circle i{
+    position: relative;
+    top:8px;
+    font-size: 40px;
+    color:#1c4aa6;
+}
+
+section.clientes-slider{
+    padding:60px 0;
+}
+
+/*Estiliza as imagens dos sliders*/
+.section.clientes-slider img{
+    max-width: 100%;
+    
 }
 
 @media screen and (max-width:768px){
     .w50{width:100%;}
 }
+
 /*Fim bloco Responsivo */
 
 
