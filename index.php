@@ -37,14 +37,12 @@
     </section><!-- topo -->
 
     <section class="clientes-slider">
-        <div class="circle"><i class="fas fa-allergies"></i></i></i></div>
+        <div class="circle"><i class="fas fa-angle-down"></i></div>
         <div class="center">
 
         </div><!-- center -->
 
     </section>
-
-
 
 <!-- Inclusição dos scripts jquery e slick-->
 <script src="js/jquery.js"></script>
