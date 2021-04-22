@@ -47,8 +47,37 @@
                 <img src="images/walmart.jpg"/>
                 </div>
             </div><!-- center -->
-
         </section>
+
+<!-- Seção diferenciados-->
+    <section class="diferenciais">
+        <div class="center">
+            <h2>Contribuimos de ponta a ponta</h2>
+                <div class="icons-diferenciais">
+                    <div class="box-single-diferenciais">
+                        <img src="images/icon1.png"/>
+                        <h3>Ambientes mobile</h3>
+                            <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
+                    </div><!-- box-single-diferenciais -->
+
+                    <div class="box-single-diferenciais">
+                        <img src="images/icon2.png"/>
+                        <h3>Ambientes mobile</h3>
+                            <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
+                    </div><!-- box-single-diferenciais -->
+
+                    <div class="box-single-diferenciais">
+                        <img src="images/icon3.png"/>
+                        <h3>Ambientes mobile</h3>
+                            <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
+                    </div><!-- box-single-diferenciais -->
+
+
+
+                </div><!-- icons-diferenciais -->
+        </div>
+    </section>
+<!-- END diferenciados -->
 
 <!-- Inclusição dos scripts jquery e slick-->
     <script src="js/jquery.js"></script>
