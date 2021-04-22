@@ -21,6 +21,18 @@
                  <li><a href="">Sobre</a></li>
                  <li><a href="">Contato</a></li>
             </ul><!-- menu -->
+
+              
+              <div class="menu-mobile">  <!-- menu mobile -->
+                <i class="fas fa-align-right"></i>
+                  <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                  </ul>
+             </div> <!-- END menu mobile -->
+                   
+
             <div class="clear"></div>
             <br />
             <br />
@@ -71,12 +83,18 @@
                         <h3>Ambientes mobile</h3>
                             <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
                     </div><!-- box-single-diferenciais -->
-
-
-
                 </div><!-- icons-diferenciais -->
         </div>
     </section>
+
+    <!-- SEÇÃO time -->
+        <section class="sobre-time">
+            <div class="center">
+                
+            </div>
+        </section>
+
+
 <!-- END diferenciados -->
 
 <!-- Inclusição dos scripts jquery e slick-->
@@ -104,6 +122,13 @@
             ]
     });
 </script>
+
+<!-- Menu responsivo -MENU MOBILE -->
+    <script>
+        $('.menu-mobile i').click(function(){
+            $('.menu-mobile').find('ul').slideToggle();
+        })
+    </script>
 <!--END  SLICK SLIDER -->
 
 </body>
