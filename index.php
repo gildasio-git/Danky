@@ -47,6 +47,7 @@
             <div class="clear"></div>
          </div> <!-- center -->
     </section><!-- topo -->
+
       <div class="circle"><i class="fas fa-angle-down"></i></div>
         <section class="clientes-slider">   
             
@@ -90,7 +91,26 @@
     <!-- SEÇÃO time -->
         <section class="sobre-time">
             <div class="center">
-                
+                <div class="w50 time-descricao-2">
+                    <h2>Um time experiente, <br/>comunicador e coeso</h2>
+                    <p>Lorem ipsum dolor sit amet  amet adipisicing elit.
+                       consectetur adipisicing elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate 
+                       <p>
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
+                       Vel deleniti cupiditate 
+                       </p>
+                    </p>
+                </div>
+            <div class="w50 img-time">
+                <img src="images/time.png"/>
+            </div>
+            <div class="clear"></div>
             </div>
         </section>
 
