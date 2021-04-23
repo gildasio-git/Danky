@@ -114,8 +114,47 @@
             </div>
         </section>
 
-
 <!-- END diferenciados -->
+
+<!-- SEÇÃO Depoimentos-->
+<section class="depoimentos">
+    <div class="center">
+        <h2>Depoimentos</h2>
+            <div class="depoimentos-box">
+                <div class="depoimentos-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Odit facere voluptatibus, in corrupti ratione odio sunt 
+                       consequatur deserunt molestiae esse excepturi, explicabo
+                       dolore maxime nemo vel laudantium numquam. Sequi.
+                       </p>
+                       <p>Gildasio Bizerra Brito</p>
+                       <img src="images/autor.jpg" /> 
+                </div><!-- depoimentos-single (Depoimentos invividual )-->
+
+                <div class="depoimentos-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Odit facere voluptatibus, in corrupti ratione odio sunt 
+                       consequatur deserunt molestiae esse excepturi, explicabo
+                       dolore maxime nemo vel laudantium numquam. Sequi.
+                       </p>
+                       <p>Gildasio Bizerra Brito</p>
+                       <img src="images/autor.jpg" /> 
+                </div><!-- depoimentos-single (Depoimentos invividual )-->
+
+                <div class="depoimentos-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Odit facere voluptatibus, in corrupti ratione odio sunt 
+                       consequatur deserunt molestiae esse excepturi, explicabo
+                       dolore maxime nemo vel laudantium numquam. Sequi.
+                       </p>
+                       <p>Gildasio Bizerra Brito</p>
+                       <img src="images/autor.jpg" /> 
+                </div><!-- depoimentos-single (Depoimentos invividual )-->
+
+            </div><!--Depoimentos BOX -->
+    </div>
+</section>
+<!-- END Depoimentos -->
 
 <!-- Inclusição dos scripts jquery e slick-->
     <script src="js/jquery.js"></script>
@@ -141,6 +180,18 @@
                 },
             ]
     });
+
+    /** Slick sliders - Depoimentos */
+    $('section.depoimentos .depoimentos-box').slick({  
+            dots: true,
+            arrows:false,
+            infinite: true,
+            speed:1000,
+            slidesToShow:1,
+            centerMode: false        
+           
+    });
+
 </script>
 
 <!-- Menu responsivo -MENU MOBILE -->
