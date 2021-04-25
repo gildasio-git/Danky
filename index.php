@@ -155,10 +155,11 @@
     </div>
 </section>
 
-<!-- Seção Metodologia -->
-
-<section class="metodologia">
-    <div class="center">
+<!-- Footer (Rodapé) -->
+<footer>
+    <!-- Seção Metodologia -->
+    <section class="metodologia">
+        <div class="center">
         <h2>Conheça nossa metodologia</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis 
                accusamus ex sunt error consequuntur excepturi nostrum quia quod ullam, a quasi
@@ -168,19 +169,32 @@
     </div>
 </section>
 <!-- END Sesção Metodologia -->
-
-<!-- Footer (Rodapé) -->
-
-
-<!-- END footer -->
-    <footer>
         <div class="center">
-            teste
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+
+            <div style="width:40%; text-align:right;" class="col-footer">
+               <img src="images/logo-footer.png" alt="">
+            </div>
         </div>
-    </footer>
-
-<!-- END Depoimentos -->
-
+</footer>
+<!-- END footer -->
+  
 <!-- Inclusição dos scripts jquery e slick-->
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
