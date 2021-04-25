@@ -154,6 +154,31 @@
             </div><!--Depoimentos BOX -->
     </div>
 </section>
+
+<!-- Seção Metodologia -->
+
+<section class="metodologia">
+    <div class="center">
+        <h2>Conheça nossa metodologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis 
+               accusamus ex sunt error consequuntur excepturi nostrum quia quod ullam, a quasi
+               modi ratione maxime beatae?
+            </p>
+            <a href="/contato">Entrar em contato</a>
+    </div>
+</section>
+<!-- END Sesção Metodologia -->
+
+<!-- Footer (Rodapé) -->
+
+
+<!-- END footer -->
+    <footer>
+        <div class="center">
+            teste
+        </div>
+    </footer>
+
 <!-- END Depoimentos -->
 
 <!-- Inclusição dos scripts jquery e slick-->
@@ -181,7 +206,7 @@
             ]
     });
 
-    /** Slick sliders - Depoimentos */
+    /** Slick sliders - Depoimentos-single*/
     $('section.depoimentos .depoimentos-box').slick({  
             dots: true,
             arrows:false,
@@ -191,6 +216,7 @@
             centerMode: false        
            
     });
+   /** END depoimentos-box */
 
 </script>
 

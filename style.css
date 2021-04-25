@@ -204,7 +204,6 @@ li.slick-active button{
 
 /*****END SLICK ****/
 
-
 /*Sesção Diferenciais*/
 section.diferenciais{
     padding: 30px 0;
@@ -290,10 +289,11 @@ section.depoimentos h2{
 }
 
 .depoimentos-box{
-    margin: 10 auto;
+    margin: 10px auto;
     max-width: 800px;
     color:white;
     width: 100%;
+    overflow: hidden;
 }
 
 .depoimentos-box p{
@@ -326,6 +326,56 @@ section.depoimentos h2{
     margin:10px auto; 
 }
 /*END - Depoimentos */
+
+
+/** SEÇÃO Metologia */
+section.metodologia {
+    position: relative; /*Efeito movimentar cx de texto metodologia para dentor do box depoimentos*/
+    z-index: 10; /*Garante que o box sempre ficara na posição fixa*/
+    top:-40px; /*Valor negativo em pixel para subir o box */
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background: white;
+    border-top:3px solid #ffca00;
+    box-shadow: 10px 10px 60px 0 rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+section.metodologia h2{
+    color:#232931;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section.metodologia p{
+    font-size: 14px;
+    color:#b4b4b4;
+    margin:15px 0;
+    font-size: 14px;;
+}
+
+section.metodologia a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 10px;
+    background-color: #23188f;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 8px;;
+}
+/** END seção Metologia */
+
+
+/** Footer | Rodape **/
+
+footer{
+    padding: 80px 0;
+    background:rgb(220,220,220);
+
+}
+/*END Footer*/
+
 
 @media screen and (max-width:768px){
     .box.icons-diferenciais{width: 100%;}
