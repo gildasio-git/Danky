@@ -9,7 +9,9 @@
 Classes auxiliares
 */
 .w50{
-    float: left; width: 50%; padding:0 15px;
+    float: left; 
+    width: 50%; 
+    padding:0 15px;
 }
 
 /*Menu mobile (ocultar quando a tela estiver grande)*/

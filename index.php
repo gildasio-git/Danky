@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <script src="https://kit.fontawesome.com/8c9a32e334.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="https://cursos.dankicode.com/app/Views/public/favicon.ico" type="image/x-icon" />
     <title>Tema - DK</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="topo">
         <div class="center">
-            <header>
+            <header> <!-- header -->
                 <div class="logo">
                     <img src="images/logo.png" alt="">
                 </div><!--logo -->
-            </header><!--header -->
-            <ul class="menu-desktop">
+            </header><!--END header -->
+
+            <ul class="menu-desktop"><!-- Menu desktop -->
                  <li><a href="">Home</a></li>
                  <li><a href="">Sobre</a></li>
                  <li><a href="">Contato</a></li>
-            </ul><!-- menu -->
+            </ul><!-- End menu desktop-->
 
               
               <div class="menu-mobile">  <!-- menu mobile -->
