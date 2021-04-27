@@ -118,4 +118,13 @@
 </footer>
 <!-- END footer -->
 
+<!-- Menu responsivo -MENU MOBILE -->
+<script src="js/jquery.js"></script>
+<script>
+        $('.menu-mobile i').click(function(){
+            $('.menu-mobile').find('ul').slideToggle();
+        })
+    </script>
+<!-- END responsivo  MENU MOBILE -->
+
 </body>

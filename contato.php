@@ -106,42 +106,10 @@
   
 <!-- Inclusição dos scripts jquery e slick-->
     <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script type="text/javascript">
-            $('section.clientes-slider .slider-container').slick({  
-            dots: true,
-            arrows:false,
-            infinite: false,
-            centerMode: false,
-            /**centerPadding:0,**/
-            speed:1000,
-            slidesToShow: 4,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            pauseOnHover:false,
-            responsive:[
-                {
-                    breakpoint:768,
-                    settings:{
-                        slidesToShow: 2
-                    }
-                },
-            ]
-    });
+<!-- Script Inclusão do mapa -->
+   <script>"https://maps.googleapis.com/maps/api/js?key=AIzaSyC7i4xznO_U7LpxELZ0ASSDeASk2DdPf1E&callback=initMap"></script>
+   <script>"js/map.js"></script>
 
-    /** Slick sliders - Depoimentos-single*/
-    $('section.depoimentos .depoimentos-box').slick({  
-            dots: true,
-            arrows:false,
-            infinite: true,
-            speed:1000,
-            slidesToShow:1,
-            centerMode: false        
-           
-    });
-   /** END depoimentos-box */
-
-</script>
 
 <!-- Menu responsivo -MENU MOBILE -->
     <script>
@@ -149,7 +117,7 @@
             $('.menu-mobile').find('ul').slideToggle();
         })
     </script>
-<!--END  SLICK SLIDER -->
+<!-- END responsivo  MENU MOBILE -->
 
 </body>
 </html>
