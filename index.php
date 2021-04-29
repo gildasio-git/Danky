@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <link rel="icon" href="https://cursos.dankicode.com/app/Views/public/favicon.ico" type="image/x-icon" />
     <title>Tema - DK</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php get_theme_root_uri();?>/Danky/style.css">
 </head>
 <body>
     <section class="topo">
         <div class="center">
             <header> <!-- header -->
                 <div class="logo">
-                    <img src="images/logo.png" alt="">
+                    <img src="<?php get_theme_root_uri();?>/Danky/images/logo.png" alt="">
                 </div><!--logo -->
             </header><!--END header -->
 
@@ -44,7 +44,7 @@
                 <a target="_blank" href="https://dankicode.com">Ver demonstração</a>
             </div><!--w50 -->
             <div class="w50 time-imagem">
-                <img src="images/equipe.png">
+                <img src="<?php get_theme_root_uri();?>/Danky/images/equipe.png">
             </div><!-- w50-2 -->
             <div class="clear"></div>
          </div> <!-- center -->
@@ -55,11 +55,11 @@
             
             <div class="center">
                 <div style="max-width: 700px; margin:0 auto; overflow: hidden;" class="slider-container">
-                <img src="images/amazon.jpg"/>
-                <img src="images/costco.jpg"/>
-                <img src="images/dominos.jpg"/>
-                <img src="images/uber.jpg"/>
-                <img src="images/walmart.jpg"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/amazon.jpg"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/costco.jpg"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/dominos.jpg"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/uber.jpg"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/walmart.jpg"/>
                 </div>
             </div><!-- center -->
         </section>
@@ -70,19 +70,19 @@
             <h2>Contribuimos de ponta a ponta</h2>
                 <div class="icons-diferenciais">
                     <div class="box-single-diferenciais">
-                        <img src="images/icon1.png"/>
+                        <img src="<?php get_theme_root_uri();?>/Danky/images/icon1.png"/>
                         <h3>Ambientes mobile</h3>
                             <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
                     </div><!-- box-single-diferenciais -->
 
                     <div class="box-single-diferenciais">
-                        <img src="images/icon2.png"/>
+                        <img src="<?php get_theme_root_uri();?>/Danky/images/icon2.png"/>
                         <h3>Ambientes mobile</h3>
                             <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
                     </div><!-- box-single-diferenciais -->
 
                     <div class="box-single-diferenciais">
-                        <img src="images/icon3.png"/>
+                        <img src="<?php get_theme_root_uri();?>/Danky/images/icon3.png"/>
                         <h3>Ambientes mobile</h3>
                             <p>Lorem ipsum dolor sit amet at eius doloribus dolores </p>
                     </div><!-- box-single-diferenciais -->
@@ -110,7 +110,7 @@
                     </p>
                 </div>
             <div class="w50 img-time">
-                <img src="images/time.png"/>
+                <img src="<?php get_theme_root_uri();?>/Danky/images/time.png"/>
             </div>
             <div class="clear"></div>
             </div>
@@ -130,7 +130,7 @@
                        dolore maxime nemo vel laudantium numquam. Sequi.
                        </p>
                        <p>Gildasio Bizerra Brito</p>
-                       <img src="images/autor.jpg" /> 
+                       <img src="<?php get_theme_root_uri();?>/Danky/images/autor.jpg" /> 
                 </div><!-- depoimentos-single (Depoimentos invividual )-->
 
                 <div class="depoimentos-single">
@@ -140,7 +140,7 @@
                        dolore maxime nemo vel laudantium numquam. Sequi.
                        </p>
                        <p>Gildasio Bizerra Brito</p>
-                       <img src="images/autor.jpg" /> 
+                       <img src="<?php get_theme_root_uri();?>/Danky/images/autor.jpg" /> 
                 </div><!-- depoimentos-single (Depoimentos invividual )-->
 
                 <div class="depoimentos-single">
@@ -150,7 +150,7 @@
                        dolore maxime nemo vel laudantium numquam. Sequi.
                        </p>
                        <p>Gildasio Bizerra Brito</p>
-                       <img src="images/autor.jpg" /> 
+                       <img src="<?php get_theme_root_uri();?>/Danky/images/autor.jpg" /> 
                 </div><!-- depoimentos-single (Depoimentos invividual )-->
 
             </div><!--Depoimentos BOX -->
@@ -191,15 +191,15 @@
             </div>
 
             <div style="width:40%; text-align:right;" class="col-footer">
-               <img src="images/logo-footer.png" alt="">
+               <img src="<?php get_theme_root_uri();?>/Danky/images/logo-footer.png" alt="">
             </div>
         </div>
 </footer>
 <!-- END footer -->
   
 <!-- Inclusição dos scripts jquery e slick-->
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="<?php get_theme_root_uri();?>/Danky/js/jquery.js"></script>
+    <script src="<?php get_theme_root_uri();?>/Danky/js/slick.min.js"></script>
     <script type="text/javascript">
             $('section.clientes-slider .slider-container').slick({  
             dots: true,

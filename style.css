@@ -1,3 +1,12 @@
+/*
+Theme name: Empresarial
+Theme URI:localhost
+Author: Gildasio Bizerra Brito
+Author: URI:gildasio.ariquemes@hotmail.com
+Description: Thema customizado para empresa
+Version:1.0
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -430,7 +439,6 @@ section.sobre-imagens{
 .sobre-imagens > .center{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .sobre-imagens img{

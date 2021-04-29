@@ -107,9 +107,9 @@
 <!-- Inclusição dos scripts jquery e slick-->
     <script src="js/jquery.js"></script>
 <!-- Script Inclusão do mapa -->
-   <script>"https://maps.googleapis.com/maps/api/js?key=AIzaSyC7i4xznO_U7LpxELZ0ASSDeASk2DdPf1E&callback=initMap"></script>
-   <script>"js/map.js"></script>
-
+   
+   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
+   <script src="js/map.js"></script>  
 
 <!-- Menu responsivo -MENU MOBILE -->
     <script>
