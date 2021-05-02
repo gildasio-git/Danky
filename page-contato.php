@@ -10,17 +10,24 @@ fechadas. -->
 </section>
 <!-- -->
     
-    
+
     <!-- Página de contato -->
             <section class="contato">
                 <div class="center">
                     <div class="w50 contato-info">
                         <h2>O mais importante, <br/> primeira conversa.</h2>
-                        <br>
-                        <p><b>Telefone:<b> (69) 99012-0000 </p>
-                        <p><b>Telefone:<b> (69) 99012-0000 </p>
-                        <p><b>Telefone:<b> (69) 99012-0000 </p>
-               
+                        </br>
+
+                         <!-- Funçao para chmar o campo repeater -->
+                         <?php 
+                            while(have_rows('Nome_tipo_contato')){
+                                the_row();
+                            ?>
+                            <p><b><?php echo get_sub_field('categoria');?>:<b> <?php echo get_sub_field('valor');?> </p>
+
+                          <?php } ?>
+                          
+            
                         <div class="mapa-container" >
                             <div id="mapa">
 
@@ -30,18 +37,11 @@ fechadas. -->
 
     <!-- Contato -->
             <div class="w50 contato-form">
-                <form action="">
-                    <input placeholder="Nome" type="text">
-                    <input placeholder="email" type="text">
-                    <input placeholder="Telefone" type="text">
-                    <select>
-                        <option>Geral</option>
-                        <option>Suporte</option>
-                    </select>                  
-                    <textarea placeholder="Mesnagem"></textarea>
-                    <input type="submit" value="Enviar">
+            
+                
+                 <?php the_content();?>
 
-                </form>
+                
             </div>
 
 

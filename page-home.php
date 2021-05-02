@@ -6,10 +6,10 @@
 <?php get_header(); ?>
 
 <div class="clear"></div>
-            <br />
-            <br />
+      <br />
+        <br />
           <div class="w50 time-descricao">
-                <h2>Melhore a comunicação com seu cliente e time</h2>
+                <h2><?php the_field('chamada_topo') ?></h2>
                 <p>Consultoria especializada em statups, empresas, principalmente, pessoas</p>
                 <a target="_blank" href="https://dankicode.com">Ver demonstração</a>
           </div><!--w50 -->
@@ -30,6 +30,7 @@
                 <img src="<?php get_theme_root_uri();?>/Danky/images/dominos.jpg"/>
                 <img src="<?php get_theme_root_uri();?>/Danky/images/uber.jpg"/>
                 <img src="<?php get_theme_root_uri();?>/Danky/images/walmart.jpg"/>
+                <img src="<?php the_field('imagem_topo'); ?>" alt="">
                 </div>
             </div><!-- center -->
         </section>
@@ -65,19 +66,8 @@
             <div class="center">
                 <div class="w50 time-descricao-2">
                     <h2>Um time experiente, <br/>comunicador e coeso</h2>
-                    <p>Lorem ipsum dolor sit amet  amet adipisicing elit.
-                       consectetur adipisicing elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate 
-                       <p>
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate elit  Vel deleniti cupiditate .
-                       Vel deleniti cupiditate 
-                       </p>
-                    </p>
+                    <p> <?php the_field('sobre_home'); ?></p>
+                   
                 </div>
             <div class="w50 img-time">
                 <img src="<?php get_theme_root_uri();?>/Danky/images/time.png"/>

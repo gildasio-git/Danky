@@ -12,15 +12,15 @@
     if($title != 'contato' && is_404()==false){
  ?>
     <section class="metodologia">
-        <div class="center">
-        <h2>Conheça nossa metodologia</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis 
-               accusamus ex sunt error consequuntur excepturi nostrum quia quod ullam, a quasi
-               modi ratione maxime beatae?
-            </p>
-            <a href="/contato">Entrar em contato</a>
-    </div>
-</section>
+            <div class="center">
+            <h2>Conheça nossa metodologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis 
+                accusamus ex sunt error consequuntur excepturi nostrum quia quod ullam, a quasi
+                modi ratione maxime beatae?
+                </p>
+                <a href="/contato">Entrar em contato</a>
+        </div>
+    </section>
 <?php } ?>
 
 <!-- END Sesção Metodologia -->
