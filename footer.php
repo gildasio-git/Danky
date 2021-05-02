@@ -3,13 +3,13 @@
         $title = get_the_title();
 ?>
 
-<!-- corrige a margem inferior com a remoção do box Metodologia -->
+<!-- Corrige a margem inferior  do footer-->
 <footer <?php if($title == 'contato'){echo 'style="padding:20px 0;"';} ?>>
 
 <?php
     /*Validação pra saber em qual página esta e com base 
     nessa informação remover partes de conteúdo */
-    if($title != "contato"){
+    if($title != 'contato' && is_404()==false){
  ?>
     <section class="metodologia">
         <div class="center">
